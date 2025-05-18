@@ -3,7 +3,8 @@ import pickle
 import numpy as np
 import pandas as pd
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application 
 
 # मॉडल और स्केलर लोड करना
 try:
